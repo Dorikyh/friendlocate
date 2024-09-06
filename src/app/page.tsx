@@ -4,8 +4,8 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mobile Security Necklace",
-  description: "Official website of MSN",
+  title: "FriendLocate",
+  description: "Official website of FiendLocate",
   // other metadata
 };
 
