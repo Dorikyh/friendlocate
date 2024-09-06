@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaShieldDog } from "react-icons/fa6";
+import { FaMapLocation } from "react-icons/fa6";
 import Link from "next/link";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
@@ -32,8 +32,8 @@ const Header = () => {
           <div className="relative -mx-4 flex items-center justify-between">
             <a href="/">
               <div className="flex items-center w-60 max-w-full px-4 xl:mr-12">
-                <FaShieldDog className="text-3xl" />
-                <p className="ml-4 text-3xl font-extrabold">msn</p>
+                <FaMapLocation className="text-3xl"/> 
+                <p className="ml-4 text-2xl font-extrabold">FriendLocate</p>
               </div>
             </a>
             <div className="flex w-full items-center justify-between px-4">

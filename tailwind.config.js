@@ -43,7 +43,7 @@ module.exports = {
         black: "#131211",
         semidark: "#2b2927",
         dark: "#131211",
-        primary: "#f18927",
+        primary: "#FF6961",
         blood: "#FF6961",
         yellow: "#FBB040",
         "bg-color-dark": "#181716",
