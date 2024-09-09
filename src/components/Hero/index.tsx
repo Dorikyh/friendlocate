@@ -18,7 +18,7 @@ const Hero = () => {
               <h1 className="text-5xl font-extrabold sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight bg-gradient-to-r from-primary to-amber-700 bg-clip-text text-transparent">
                 FriendLocate
               </h1>
-              <p className="mb-6 !leading-relaxed text-gray-300 dark:text-body-color-dark sm:text-lg md:text-xl">
+              <p className="mb-6 leading-relaxed text-gray-500 dark:text-body-color-dark sm:text-lg md:text-xl">
                 Localizacion segura para todos
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
@@ -31,7 +31,7 @@ const Hero = () => {
                 </Link>
                 <Link
                   href="/equipo"
-                  className="flex items-center rounded-xl bg-gray-400 bg-opacity-50 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 bg-white/10 text-white hover:bg-white/5"
+                  className="flex items-center rounded-xl bg-gray-500 bg-opacity-50 dark:text-white px-8 py-4 text-base font-semibold text-dark duration-300 ease-in-out hover:bg-black/90 bg-white/10 hover:bg-white/5"
                 >
                   <FaUser className="mr-2 text-xl" />
                   Equipo 

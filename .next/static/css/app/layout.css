@@ -655,6 +655,14 @@ input[type="checkbox"]:checked ~ label span svg{
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -708,6 +716,9 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .mt-\[6px\]{
   margin-top: 6px;
+}
+.mt-4{
+  margin-top: 1rem;
 }
 .block{
   display: block;
@@ -984,6 +995,18 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .bg-white\/10{
   background-color: rgb(255 255 255 / 0.1);
+}
+.bg-gray-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 .\!bg-opacity-80{
   --tw-bg-opacity: 0.8 !important;

@@ -36,12 +36,12 @@ function RegisterPage() {
   console.log(errors);
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex my-6 justify-center items-center">
       <form onSubmit={onSubmit} className="">
-        <h1 className="text-slate-200 font-bold text-4xl mb-4">Register</h1>
+        <h1 className="text-slate-200 text-center font-bold text-4xl mb-4">Registro</h1>
 
         <label htmlFor="username" className="text-slate-500 mb-2 block text-sm">
-          Username:
+          Nombre de usuario:
         </label>
         <input
           type="text"
@@ -51,7 +51,7 @@ function RegisterPage() {
               message: "Username is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded-lg block mb-2 dark:bg-semidark text-slate-300 w-full"
           placeholder="username"
         />
 
@@ -61,8 +61,8 @@ function RegisterPage() {
           </span>
         )}
 
-        <label htmlFor="email" className="text-slate-500 mb-2 block text-sm">
-          Email:
+        <label htmlFor="email" className="text-slate-500 mb-1 block text-sm">
+          Correo electronico:
         </label>
         <input
           type="email"
@@ -72,7 +72,7 @@ function RegisterPage() {
               message: "Email is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded-lg block mb-2 dark:bg-semidark text-slate-300 w-full"
           placeholder="user@email.com"
         />
         {errors.email?.message && typeof errors.email.message === "string" && (
@@ -80,7 +80,7 @@ function RegisterPage() {
         )}
 
         <label htmlFor="password" className="text-slate-500 mb-2 block text-sm">
-          Password:
+          Contrasena:
         </label>
         <input
           type="password"
@@ -90,7 +90,7 @@ function RegisterPage() {
               message: "Password is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded-lg block mb-2 dark:bg-semidark text-slate-300 w-full"
           placeholder="password"
         />
         {errors.password?.message && typeof errors.password.message === "string" && (
@@ -103,7 +103,7 @@ function RegisterPage() {
           htmlFor="confirmPassword"
           className="text-slate-500 mb-2 block text-sm"
         >
-          Confirm Password:
+          Confirmar contrasena:
         </label>
         <input
           type="password"
@@ -113,7 +113,7 @@ function RegisterPage() {
               message: "Confirm Password is required",
             },
           })}
-          className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
+          className="p-3 rounded-lg block mb-2 dark:bg-semidark text-slate-300 w-full"
           placeholder="********"
         />
         {errors.confirmPassword?.message && typeof errors.confirmPassword.message === "string" && (
@@ -122,9 +122,10 @@ function RegisterPage() {
           </span>
         )}
 
-        <button className="w-full bg-blue-500 text-white p-3 rounded-lg mt-2">
-          Register
+        <button className="w-full bg-primary text-white p-3 rounded-lg mt-2 mb-1">
+          Registrarme
         </button>
+        <p className="text-center">Ya tienes una cuenta? <a className="text-primary" href="/auth/login">Inicia sesion</a></p>
       </form>
     </div>
   );

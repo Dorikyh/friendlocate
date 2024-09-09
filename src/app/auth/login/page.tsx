@@ -39,10 +39,10 @@ function LoginPage() {
           <p className="bg-red-500 text-lg text-white p-3 rounded mb-2">{error}</p>
         )}
 
-        <h1 className="text-slate-200 font-bold text-center text-4xl mb-4">Login</h1>
+        <h1 className="text-slate-200 font-bold text-center text-4xl mb-6">Inicio de sesion</h1>
 
-        <label htmlFor="email" className="text-slate-500 mb-2 block text-sm">
-          Email:
+        <label htmlFor="email" className="text-slate-500 mb-1 block text-sm">
+          Correo Electronico:
         </label>
         <input
           type="email"
@@ -61,7 +61,7 @@ function LoginPage() {
         )}
 
         <label htmlFor="password" className="text-slate-500 mb-2 block text-sm">
-          Password:
+          ContraseNa:
         </label>
         <input
           type="password"
@@ -81,9 +81,10 @@ function LoginPage() {
           </span>
         )}
 
-        <button className="w-full bg-primary font-bold text-white p-3 rounded-lg mt-2">
-          Login
+        <button className="w-full bg-primary font-bold mb-2 text-white p-3 rounded-lg mt-2">
+          Iniciar sesion
         </button>
+        <p className="text-center">No tienes una cuenta? <a className="text-primary" href="/auth/register">Registrate</a></p>
       </form>
     </div>
   );
