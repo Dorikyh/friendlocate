@@ -26,7 +26,7 @@ function LoginPage() {
     if (res?.error) {
       setError(res.error);
     } else {
-      router.push('/dashboard');
+      router.push('/panel');
       router.refresh();
     }
   });

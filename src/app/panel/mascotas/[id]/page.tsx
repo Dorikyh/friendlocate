@@ -1,4 +1,4 @@
-// src/app/dashboard/mascotas/[id]/page.tsx
+// src/app/panel/mascotas/[id]/page.tsx
 
 "use client";
 

@@ -110,7 +110,7 @@ function Mascotas() {
           {pets.map((pet) => (
             <div key={pet.id} className="dark:bg-semidark p-4 border border-gray-300 rounded-lg shadow-md">
               <h2 className="text-xl font-semibold mb-2 dark:text-slate-200 text-gray-800">
-                <Link href={`/dashboard/mascotas/${pet.id}`}>
+                <Link href={`/panel/mascotas/${pet.id}`}>
                   {pet.name}
                 </Link>
               </h2>

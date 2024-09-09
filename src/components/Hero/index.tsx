@@ -23,7 +23,7 @@ const Hero = () => {
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <Link
-                  href="/dashboard"
+                  href="/panel"
                   className="flex items-center rounded-xl bg-primary px-8 py-4 text-2xl text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                 >
                   <MdSpaceDashboard className="mr-2 text-2xl" />
