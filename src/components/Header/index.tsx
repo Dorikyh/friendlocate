@@ -122,11 +122,11 @@ const Header = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <Link
-                  href="/dashboard"
+                  href="/panel"
                   className="hidden lg:flex items-center ease-in-up shadow-btn hover:shadow-btn-hover rounded-lg bg-primary p-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90"
                 >
                   <MdSpaceDashboard className="text-xl" />
-                  <span className="ml-2">Dashboard</span>
+                  <span className="ml-2">Panel</span>
                 </Link>
                 <div className="flex items-center">
                   <ThemeToggler />

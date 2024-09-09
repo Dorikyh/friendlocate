@@ -600,9 +600,6 @@ input[type="checkbox"]:checked ~ label span svg{
 .bottom-0{
   bottom: 0px;
 }
-.bottom-5{
-  bottom: 1.25rem;
-}
 .bottom-8{
   bottom: 2rem;
 }
@@ -623,9 +620,6 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .top-4{
   top: 1rem;
-}
-.top-5{
-  top: 1.25rem;
 }
 .top-full{
   top: 100%;
@@ -682,6 +676,9 @@ input[type="checkbox"]:checked ~ label span svg{
 .mb-6{
   margin-bottom: 1.5rem;
 }
+.mb-8{
+  margin-bottom: 2rem;
+}
 .mb-9{
   margin-bottom: 2.25rem;
 }
@@ -690,9 +687,6 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .ml-4{
   margin-left: 1rem;
-}
-.mr-1{
-  margin-right: 0.25rem;
 }
 .mr-2{
   margin-right: 0.5rem;
@@ -714,9 +708,6 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .mt-\[6px\]{
   margin-top: 6px;
-}
-.mb-8{
-  margin-bottom: 2rem;
 }
 .block{
   display: block;
@@ -768,9 +759,6 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .h-full{
   height: 100%;
-}
-.h-px{
-  height: 1px;
 }
 .h-screen{
   height: 100vh;
@@ -1014,20 +1002,8 @@ input[type="checkbox"]:checked ~ label span svg{
   --tw-gradient-to: rgb(255 105 97 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.from-transparent{
-  --tw-gradient-from: transparent var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.via-\[\#D2D8E183\]{
-  --tw-gradient-to: rgb(210 216 225 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #D2D8E183 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
 .to-amber-700{
   --tw-gradient-to: #b45309 var(--tw-gradient-to-position);
-}
-.to-transparent{
-  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 .bg-clip-text{
   -webkit-background-clip: text;
@@ -1158,10 +1134,6 @@ input[type="checkbox"]:checked ~ label span svg{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
 }
 .font-bold{
   font-weight: 700;
@@ -1702,11 +1674,6 @@ input[type="checkbox"]:checked ~ label span svg{
   background-color: rgb(43 41 39 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:via-\[\#959CB183\]){
-  --tw-gradient-to: rgb(149 156 177 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #959CB183 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
 :is(.dark .dark\:text-body-color-dark){
   --tw-text-opacity: 1;
   color: rgb(149 156 177 / var(--tw-text-opacity));
@@ -1745,11 +1712,6 @@ input[type="checkbox"]:checked ~ label span svg{
 :is(.dark .dark\:hover\:bg-gray-700:hover){
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:hover\:text-primary:hover){
-  --tw-text-opacity: 1;
-  color: rgb(255 105 97 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:text-white:hover){
